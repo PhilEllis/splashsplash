@@ -40,8 +40,10 @@
     <div class="container d-flex flex-column align-items-center">
 
       <h1></h1>
+      <div class="info">
       <img src="assets/img/splashlogo600x197.png">
-      <h2>We're working hard to improve our website and we'll ready to launch after</h2>
+      </div>
+      <h2 class="mt-4 mb-2">We're working hard to improve our website and we'll ready to launch after</h2>
       <div class="countdown d-flex justify-content-center" data-count="2023/12/3">
         <div>
           <h3>%d</h3>
@@ -60,10 +62,10 @@
           <h4>Seconds</h4>
         </div>
       </div>
-
-      <div class="subscribe">
-        <h4>Subscribe now to get the latest updates!</h4>
-        <form action="forms/notify.php" method="post" role="form" class="php-email-form">
+      
+      <div class="subscribe mb-2">
+        <h4>In the meantime check of social media for any updates!</h4>
+        <!-- Subscribe to newsletter field<form action="forms/notify.php" method="post" role="form" class="php-email-form">
           <div class="subscribe-form">
             <input type="email" name="email" required><input type="submit" value="Subscribe">
           </div>
@@ -73,8 +75,9 @@
             <div class="sent-message">Your notification request was sent. Thank you!</div>
           </div>
         </form>
+        -->
       </div>
-
+    
       <div class="social-links text-center">
         <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
         <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
@@ -98,17 +101,17 @@
 
         <div class="row mt-2">
           <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="fa-solid fa-person-swimming mb-4 mt-3"></i></div>
+            <div class="icon"><i class="fa-solid fa-person-swimming mb-4 mt-3" style="color: #8ab5b9;"></i></div>
             <h4 class="title"><a href="">Swim</a></h4>
             <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="fa-solid fa-pizza-slice mb-4 mt-3"></i></div>
+            <div class="icon"><i class="fa-solid fa-pizza-slice mb-4 mt-3" style="color: #d5b14c;"></i></div>
             <h4 class="title"><a href="">Eat</a></h4>
             <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="fa-solid fa-child-reaching mb-4 mt-3"></i></div>
+            <div class="icon"><i class="fa-solid fa-child-reaching mb-4 mt-3" style="color: #d2bbbb;"></i></div>
             <h4 class="title"><a href="">Play</a></h4>
             <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
           </div>
@@ -127,58 +130,54 @@
 
         <div class="row">
 
-          <div class="col-lg-5 d-flex align-items-stretch">
+          <div class="col-lg-4 d-flex align-items-stretch">
             <div class="info">
-              <div class="address">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.0096095723643!2d-3.1603651238560153!3d51.476337912972674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1ccd974f011b%3A0x21fb9059904f92b7!2sSplash%20Central!5e0!3m2!1sen!2suk!4v1692830767296!5m2!1sen!2suk" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address mt-2">
                 <i class="fa-solid fa-location-dot"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Beignon Close, Cardiff CF24 5HF</p>
               </div>
 
               <div class="email">
                 <i class="fa-solid fa-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>info@splashcentralcardiff.com</p>
               </div>
 
               <div class="phone">
                 <i class="fa-solid fa-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>02920498308</p>
               </div>
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
             </div>
 
           </div>
 
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6 mt-3 mt-md-0">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="fa-solid fa-clock"></i>
+                <h4>Opening Hours</h4>
+                <p></p>
               </div>
-              <div class="form-group mt-3">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
+
+              <div class="email">
+                <p><h4>Mon</h4>9am - 7:45pm</p>
+                <p></p>
               </div>
-              <div class="form-group mt-3">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
+
+              <div class="phone">
+                <h4></h4>
+                <p></p>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+            </div>
+
           </div>
 
         </div>
@@ -192,7 +191,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Maundy</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Splash Central</span></strong>. All Rights Reserved
       </div>
       
     </div>
